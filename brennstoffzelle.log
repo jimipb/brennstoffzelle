@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.20)  20 JUN 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.20)  20 JUN 2019 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1362,85 +1362,105 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 35.
  [10 <./mess/aufg2_pi.pdf> <./mess/aufg3_iu.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 54.
-<mess/aufg7.pdf, id=185, 642.4pt x 481.8pt>
-File: mess/aufg7.pdf Graphic file (type pdf)
-<use mess/aufg7.pdf>
-Package pdftex.def Info: mess/aufg7.pdf  used on input line 58.
-(pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 62.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 62.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 58.
 
 [11 <./mess/aufg3_pi.pdf>]
-<mess/aufg8.pdf, id=201, 642.4pt x 481.8pt>
-File: mess/aufg8.pdf Graphic file (type pdf)
-<use mess/aufg8.pdf>
-Package pdftex.def Info: mess/aufg8.pdf  used on input line 67.
+<mess/aufg4.pdf, id=202, 642.4pt x 481.8pt>
+File: mess/aufg4.pdf Graphic file (type pdf)
+<use mess/aufg4.pdf>
+Package pdftex.def Info: mess/aufg4.pdf  used on input line 79.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-Overfull \hbox (28.57349pt too wide) in paragraph at lines 77--79
+Overfull \hbox (6.39201pt too wide) in paragraph at lines 78--80
+[]\OT1/cmr/m/n/10.95 Zuletzt un-ter-su-chen wir den Zu-sam-men-hang zwi-schen L
+eis-tung und be-leuch-te-ter Fl[]ache.
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 80.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 80.
+<mess/aufg7.pdf, id=203, 642.4pt x 481.8pt>
+File: mess/aufg7.pdf Graphic file (type pdf)
+<use mess/aufg7.pdf>
+Package pdftex.def Info: mess/aufg7.pdf  used on input line 84.
+(pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
+<mess/aufg8.pdf, id=204, 642.4pt x 481.8pt>
+File: mess/aufg8.pdf Graphic file (type pdf)
+<use mess/aufg8.pdf>
+Package pdftex.def Info: mess/aufg8.pdf  used on input line 93.
+(pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
+
+Overfull \hbox (28.57349pt too wide) in paragraph at lines 103--105
 \OT1/cmr/m/n/10.95 Diese Wer-te sind sehr gut. Ei-ne gu-te Aus-beu-te bei der A
 uf-spal-tung von $\OML/cmm/m/it/10.95 H[]O$ \OT1/cmr/m/n/10.95 ist w[]unschensw
 ert.
  []
 
 
-Overfull \hbox (19.69135pt too wide) in paragraph at lines 80--87
+Overfull \hbox (19.69135pt too wide) in paragraph at lines 106--113
 \OT1/cmr/m/n/10.95 er-zeug-ter Gas-men-ge. Da-durch l[]asst sich die Be-zie-hun
 g zum Fa-ra-day'schen Ge-setz []uberpr[]ufen.
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
-[12 <./mess/aufg7.pdf>]
-<mess/aufg10.pdf, id=217, 642.4pt x 481.8pt>
+(babel)             in language  on input line 113.
+[12]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+ [13 <./mess/aufg4.pdf> <./mess/aufg7.pdf>]
+<mess/aufg10.pdf, id=236, 642.4pt x 481.8pt>
 File: mess/aufg10.pdf Graphic file (type pdf)
 <use mess/aufg10.pdf>
-Package pdftex.def Info: mess/aufg10.pdf  used on input line 95.
+Package pdftex.def Info: mess/aufg10.pdf  used on input line 121.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
-<mess/aufg11.pdf, id=218, 642.4pt x 481.8pt>
+<mess/aufg11.pdf, id=237, 642.4pt x 481.8pt>
 File: mess/aufg11.pdf Graphic file (type pdf)
 <use mess/aufg11.pdf>
-Package pdftex.def Info: mess/aufg11.pdf  used on input line 104.
+Package pdftex.def Info: mess/aufg11.pdf  used on input line 130.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
-<mess/aufg12.pdf, id=219, 642.4pt x 481.8pt>
+<mess/aufg12.pdf, id=238, 642.4pt x 481.8pt>
 File: mess/aufg12.pdf Graphic file (type pdf)
 <use mess/aufg12.pdf>
-Package pdftex.def Info: mess/aufg12.pdf  used on input line 112.
+Package pdftex.def Info: mess/aufg12.pdf  used on input line 138.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
-)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
- [13 <./mess/aufg8.pdf>]
+(babel)             in language  on input line 144.
+ [14 <./mess/aufg8.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
- [14 <./mess/aufg10.pdf> <./mess/aufg11.pdf>]
+(babel)             in language  on input line 144.
+
+[15 <./mess/aufg10.pdf> <./mess/aufg11.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 27.
@@ -1450,9 +1470,10 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 27.
- [15 <./mess/aufg12.pdf>]
+ [16 <./mess/aufg12.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
- (./brennstoffzelle.aux)
+
+(./brennstoffzelle.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 Package rerunfilecheck Info: File `brennstoffzelle.out' has not changed.
@@ -1460,30 +1481,31 @@ Package rerunfilecheck Info: File `brennstoffzelle.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 19720 strings out of 494798
- 380032 string characters out of 6176800
- 525882 words of memory out of 5000000
- 22823 multiletter control sequences out of 15000+600000
+ 19728 strings out of 494798
+ 380162 string characters out of 6176800
+ 525966 words of memory out of 5000000
+ 22828 multiletter control sequences out of 15000+600000
  541079 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,13n,66p,10387b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,66p,10387b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-sbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on brennstoffzelle.pdf (15 pages, 973041 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on brennstoffzelle.pdf (16 pages, 993480 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

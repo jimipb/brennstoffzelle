@@ -36,8 +36,15 @@ I(U) = y_0 + I_0 \, e^{\frac{U}{U_0}}
 Aus dem Fit ergeben sich die Werte:
 \begin{align*}
 	y_0 &= \SI{-9.48}{\milli \ampere}\\
-	I_O &= \SI{0.28}{\milli \ampere}\\
+	I_0 &= \SI{0.28}{\milli \ampere}\\
 	U_0 &= \SI{0.55}{\volt}
+\end{align*}
+Für $U=0$ ergibt sich der Kurzschlussstrom $I_K$ und für $I=0$ die Leerlaufspannung $U_L$.
+\begin{align*}
+	I_K &= I(0) = y_0 + I_0 = \SI{-9,2}{\milli \ampere} \\
+	U_L &= U(0) \\
+	&\Rightarrow U(I) = U_0 \ln \left( \frac{I-y_0}{I_0} \right) \\
+	U_L &= U_0 \ln \left( -\frac{y_0}{I_0} \right) = \SI{1,9}{\volt}
 \end{align*}
 
 Verunreinigungen und Kristallfehler and der Grenzfläche der p-n leitenden Schicht verursachen Widerstände die sich im realen nicht auf 0 (Reihe) und unendlich (Parallel) setzen lassen.
@@ -46,11 +53,30 @@ Um diese Widerstände zu bestimmen nutzt man die Kennlinie des Bauteils.
 Diese Widerstände entsprechen den Steigungen der Kennlinie nahe den Achsen, also der Steigung des Graphen bei Leerlaufspannung und Kurzschlussstrom.
 Wir erhalten daraus die Werte:
 \[
-R_p=\SI{38}{\kilo \joule} \quad
-R_S=\SI{746}{\ohm}
+R_s=R(0)=-\frac{U_0}{y_0}=\SI{58}{\ohm}, \qquad
+R_p=R(I_K)=\frac{U_0}{I_0}=\SI{2,0}{\kilo \ohm}
 \]
 Diese Werte sind in etwa realistisch für unsere Bedingungen. Die Tendenz, dass der Parallelwiderstand hoch ist und der Reihenwiderstand gering ist, ist gegeben. Die Werte wurden am Fenster aufgenommen.
 
+Mit $P=UI$ stellen wir nun die Fit-Funktion für das P/I-Diagramm auf, um den Maximum Power Point zu bestimmen.
+\[
+	P(I)=U(I) \cdot I=U_0 \cdot \ln \left( \frac{I-y_0}{I_0} \right) \cdot I
+\]
+Aus dem Graphen erhalten wir $P_{MPP}= \SI{-8,5}{\milli \watt}$ und $I_{MPP} = \SI{-6,5}{\milli \ampere}$.
+Daraus ergibt sich für Spannung und Widerstand
+\begin{align*}
+	U_{MPP} = U(I_{MPP}) = \SI{1,3}{\volt}
+	R_{MPP} = \frac{U_{MPP}}{I_{MPP}} = \SI{0,2}{\kilo \ohm}
+\end{align*}
+
+Hieraus lässt sich auch der Füllfaktor bestimmen.
+\[
+	f= \frac{U_{MPP} \cdot I_{MPP}}{U_L \cdot I_L} = 0,49
+\]
+Der Literaturwert für amorphe Solarzellen liegt bei 0,5-0,7. Durch das Durchführen des Versuches ohne direkte Sonneneinstrahlung geht der errechnete Wert in Ordnung.
+
+Zuletzt untersuchen wir den Zusammenhang zwischen Leistung und beleuchteter Fläche. Hierzu bedecken wir schrittweise ein halbes Solarpanel pro Messung. Aus dem Plot \refabb{a4} ist der quadratische Zusammenhang zu erkennen. Dies ist das Resultat der Mischung aus Reihen- und Parallelschaltungen der einzelnen Solarmodule. 
+\mess{mess/aufg4.pdf}{Zusammenhang zwischen Leistung und beleuchteter Fläche}{a4}
 \section{Brennstoffzelle}
 Zunächst gilt es wiederum die I/U-Kennlinie aufzuzeichnen. Hierfür variieren wir die Elektrolyseurspannung und messen den zugehörigen Strom.
 \begin{figure}[htbp]
@@ -116,7 +142,7 @@ Nun soll bei konstanter Last die verbrauchte Gasmenge bestimmt werden:
 Wir bestimmen nun analog zum Elektrolyseur den elektrischen und Faraday’schen Wirkungsgrad der Brennstoffzelle.
 Bei $\SI{0.13}{\volt}$ und $\SI{-128}{\milli \ampere}$ hat die Zelle am meisten Gas verbraucht uns somit am meisten Leistung gebracht. Für uns Ergeben sich folgende Werte:
 \begin{align*}
-n_el &= \frac{W_{el}}{HHH2V}=0,39
+n_el &= \frac{W_{el}}{HHH2V}=0,39 \\
 n_F &= \frac{V_{theo}}{V}=0,83
 \end{align*}
 Klar war für uns, die Erzeugung von Strom durch den Verbrauch von Wasserstoff und Sauerstoff zu Wasser kann nicht perfekt Funktionieren. Dennoch ist sie mit ca. 40\% besser als die meisten Stromerzeuger. Theoretisch sind wohl auch noch bessere Werte möglich, mit geringerem Widerstand und einer moderneren Vorrichtung.
