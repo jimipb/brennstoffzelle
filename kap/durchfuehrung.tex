@@ -65,8 +65,8 @@ Mit $P=UI$ stellen wir nun die Fit-Funktion für das P/I-Diagramm auf, um den Ma
 Aus dem Graphen erhalten wir $P_{MPP}= \SI{-8,5}{\milli \watt}$ und $I_{MPP} = \SI{-6,5}{\milli \ampere}$.
 Daraus ergibt sich für Spannung und Widerstand
 \begin{align*}
-	U_{MPP} = U(I_{MPP}) = \SI{1,3}{\volt}
-	R_{MPP} = \frac{U_{MPP}}{I_{MPP}} = \SI{0,2}{\kilo \ohm}
+	U_{MPP} &= U(I_{MPP}) = \SI{1,3}{\volt} \\
+	R_{MPP} &= \frac{U_{MPP}}{I_{MPP}} = \SI{0,2}{\kilo \ohm}
 \end{align*}
 
 Hieraus lässt sich auch der Füllfaktor bestimmen.
@@ -77,8 +77,10 @@ Der Literaturwert für amorphe Solarzellen liegt bei 0.5-0.7. Durch das Durchfü
 
 Zuletzt untersuchen wir den Zusammenhang zwischen Leistung und beleuchteter Fläche. Hierzu bedecken wir schrittweise ein halbes Solarpanel pro Messung. Aus dem Plot \refabb{a4} ist der quadratische Zusammenhang zu erkennen. Dies ist das Resultat der Mischung aus Reihen- und Parallelschaltungen der einzelnen Solarmodule. 
 \mess{mess/aufg4.pdf}{Zusammenhang zwischen Leistung und beleuchteter Fläche}{a4}
-\section{Brennstoffzelle}
 Zunächst gilt es wiederum die I/U-Kennlinie aufzuzeichnen. Hierfür variieren wir die Elektrolyseurspannung und messen den zugehörigen Strom.
+
+\section{Elektrolyseur}
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{mess/aufg7.pdf}
@@ -86,12 +88,12 @@ Zunächst gilt es wiederum die I/U-Kennlinie aufzuzeichnen. Hierfür variieren w
 	\label{a7}
 \end{figure}
 
-Nun wollen wir den elektrischen Wirkungsgrad des Elektrolyseur bestimmen. Hierfür benötigen wir den Brennwert für Wasserstoff. 
+Nun wollen wir den elektrischen Wirkungsgrad des Elektrolyseur bestimmen. Hierfür benötigen wir den Brennwert für Wasserstoff $W_H = \SI{11,7}{\mega \joule \per \metre \cubed}$. 
 Die geleistete Arbeit des Elektrolyseurs ist proportional zum erzeugen Gasvolumen V. Mit der Formel $W_{el}=UIt$ kann man nun die theoretisch mögliche Spannung berechnen und damit den elektrischen Wirkungsgrad bestimmen.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{mess/aufg8.pdf}
-	\caption{lol keine Ahnung mann}
+	\caption{Gasproduktion pro Zeit bei konstanter Last}
 	\label{a8}
 \end{figure}
 
@@ -113,11 +115,14 @@ $I=\frac{VzF}{Vnt}$
 $\frac{dV}{dt}=I \cdot \SI{0.127}{\centi \meter \cubed \per \ampere \second}$
 Berechnen sich unsere Faraday’schen Widerstände auf:
 \[
-nF(1A)=1,02 \quad nF(2A) = 1.05 \quad nF(2,5A)=1.04
+nF(\SI{1}{\ampere})=1,02 \quad nF(\SI{2}{\ampere}) = 1.05 \quad nF(\SI{2.5}{\ampere})=1.04
 \]
 Die Werte sind größer als eins, was auf manche Fehlerquellen verweisen muss. Da dieses Gesetz die chemischen Vorgänge beschreibt, sollte die Werte auch nahe an der eins liegen.
 Probleme stellten beispielsweise das Ablesen der Gasmenge dar.
 Die angebrachte Skala war recht unhandlich und grob abzulesen.
+
+
+\section{Brennstoffzelle}
 
 Auch für die Brennstoffzolle soll nun die I/U-Kennlinie aufgenommen werden. Hierzu wird der zwischengeschaltete Widerstand variiert.
 \begin{figure}
@@ -128,7 +133,7 @@ Auch für die Brennstoffzolle soll nun die I/U-Kennlinie aufgenommen werden. Hie
 \end{figure}
 
 Nun soll der Maximum Power Point bestimmt werden. Hierzu nutzen wir die P/I Kennlinie und erkennen, dass unsere P/I Kurve bis zum Ende hin steigt. Wir konnten keinen geringeren Widerstand als $\SI{0,8}{\ohm}$  in den Stromkreis einschließen und der Kurzschlussstrom kann die Brennstoffzelle zerstören.
-Wir benennen also unseren MPP an der Stelle von 0,8 Ohm und bekommen folgenden Wert: PMPP = 95mW 
+Wir benennen also unseren MPP an der Stelle von 0.8 Ohm und bekommen folgenden Wert: $P_{MPP} = \SI{95}{\milli \watt}$
 Dieser Wert ist akzeptabel.
 \begin{figure}[htbp]
 	\centering
@@ -141,7 +146,7 @@ Nun soll bei konstanter Last die verbrauchte Gasmenge bestimmt werden:
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{mess/aufg12.pdf}
-	\caption{Gasmenge pro Zeit, Last an Brennstoffzelle konstant}
+	\caption{FILL HERE}
 	\label{a12}
 \end{figure}
 Wir bestimmen nun analog zum Elektrolyseur den elektrischen und Faraday’schen Wirkungsgrad der Brennstoffzelle.

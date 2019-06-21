@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}
+\select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Vorbereitung}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Optische Grundlagen}{4}{section.2.1}
@@ -7,4 +7,5 @@
 \contentsline {section}{\numberline {2.4}Solarzelle}{9}{section.2.4}
 \contentsline {chapter}{\numberline {3}Durchf\IeC {\"u}hrung}{10}{chapter.3}
 \contentsline {section}{\numberline {3.1}Solarzelle}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Brennstoffzelle}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}Elektrolyseur}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Brennstoffzelle}{15}{section.3.3}
