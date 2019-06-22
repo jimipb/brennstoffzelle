@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.18)  22 JUN 2019 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.18)  22 JUN 2019 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1515,7 +1515,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
 Here is how much of TeX's memory you used:
  18633 strings out of 494893
  357792 string characters out of 6178672
- 481370 words of memory out of 5000000
+ 481417 words of memory out of 5000000
  21689 multiletter control sequences out of 15000+600000
  14447 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1534,7 +1534,7 @@ mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on brennstoffzelle.pdf (19 pages, 1082230 bytes).
+Output written on brennstoffzelle.pdf (19 pages, 1082296 bytes).
 PDF statistics:
  387 PDF objects out of 1000 (max. 8388607)
  298 compressed objects within 3 object streams
