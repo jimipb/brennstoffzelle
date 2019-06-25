@@ -88,7 +88,8 @@ Zunächst gilt es wiederum die I/U-Kennlinie aufzuzeichnen. Hierfür variieren w
 	\label{a7}
 \end{figure}
 
-Nun wollen wir den elektrischen Wirkungsgrad des Elektrolyseur bestimmen. Hierfür benötigen wir den Brennwert für Wasserstoff $W_H = \SI{11,7}{\mega \joule \per \metre \cubed}$. 
+Als Nächstes soll mit einem Elektrolyseur Wasserstoff und Sauerstoff hergestellt werden. 
+Uns interessiert zunächst der elektrische Wirkungsgrad. Hierfür benötigen wir den Brennwert für Wasserstoff $W_H = \SI{11,7}{\mega \joule \per \metre \cubed}$. 
 Die geleistete Arbeit des Elektrolyseurs ist proportional zum erzeugen Gasvolumen V. Mit der Formel $W_{el}=UIt$ kann man nun die theoretisch mögliche Spannung berechnen und damit den elektrischen Wirkungsgrad bestimmen.
 \begin{figure}[htbp]
 	\centering
@@ -104,27 +105,27 @@ n(\SI{2}{\ampere})=0.96 \quad
 n(\SI{2,5}{\ampere})=0.92
 \]
 Diese Werte sind sehr gut. Eine gute Ausbeute bei der Aufspaltung von $H_2O$ ist wünschenswert.
-Dies zeigt, dass die Herstellung von Wasserstoff sehr effizient ist. Mit dem Gas betreibt man später eine Brennstoffzelle.
+Die Herstellung von Wasserstoff ist also sehr effizient ist. Das Gas nutzt man später für die Brennstoffzelle.
 
-Im Folgenden berechnen wir das Verhältnis von theoretisch errechneter zu tatsächlich erzeugter Gasmenge.
-Dadurch lässt sich die Beziehung zum Faraday’schen Gesetz überprüfen. Nutzt man die Formeln:
+Im Graphen 3.7 zu sehen ist, wie viel Gas bei einer konstanten Stromlast hergestellt wird. Mit den theoretisch berechneten Werten der Gasentwicklung nach dem Faraday’schen Gesetz, ermittelt man den Faradayschen Wirkungsgrad und überprüft damit das Gesetz. Man erhält das Verhältnis von theoretisch errechneter zu tatsächlich erzeugter Gasmenge.
+Hierzu nutzt man die Formeln:
 $Q=nzF$
 mit dem molaren Volumen $V_m=V_n=\SI{24,465}{\litre}$,
-z=2 (es werden beide H-Atome des $H_2O$ reduziert)
+z ist 2, denn es werden beide H-Atome des $H_2O$ reduziert.
 $I=\frac{VzF}{Vnt}$
 $\frac{dV}{dt}=I \cdot \SI{0.127}{\centi \meter \cubed \per \ampere \second}$
-Berechnen sich unsere Faraday’schen Widerstände auf:
+Berechnen sich unsere Faraday’schen Wirkungsgrade auf:
 \[
 nF(\SI{1}{\ampere})=1,02 \quad nF(\SI{2}{\ampere}) = 1.05 \quad nF(\SI{2.5}{\ampere})=1.04
 \]
-Die Werte sind größer als eins, was auf manche Fehlerquellen verweisen muss. Da dieses Gesetz die chemischen Vorgänge beschreibt, sollte die Werte auch nahe an der eins liegen.
+Die Werte sind größer als eins, was auf manche Fehlerquellen verweisen muss. Da dieses Gesetz die chemischen Vorgänge beschreibt, sollte die Werte nahe der eins, aber keines Falls größer der eins, liegen.
 Probleme stellten beispielsweise das Ablesen der Gasmenge dar.
 Die angebrachte Skala war recht unhandlich und grob abzulesen.
 
 
 \section{Brennstoffzelle}
 
-Auch für die Brennstoffzolle soll nun die I/U-Kennlinie aufgenommen werden. Hierzu wird der zwischengeschaltete Widerstand variiert.
+Für die Brennstoffzolle soll nun die I/U-Kennlinie aufgenommen werden, hieraus lassen sich viele nützliche Daten, wie z.B. Leerlaufspannung, Kurzschlussstrom und Leistung, errechnen. Dazu wird der zwischengeschaltete Widerstand, von 0,5 Ohm bis mehrere hundert Kilo-Ohm, variiert. Verwendet wird hier das vorher hergestellte Wasserstoffgas.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{mess/aufg10.pdf}
@@ -132,9 +133,9 @@ Auch für die Brennstoffzolle soll nun die I/U-Kennlinie aufgenommen werden. Hie
 	\label{a10}
 \end{figure}
 
-Nun soll der Maximum Power Point bestimmt werden. Hierzu nutzen wir die P/I Kennlinie und erkennen, dass unsere P/I Kurve bis zum Ende hin steigt. Wir konnten keinen geringeren Widerstand als $\SI{0,8}{\ohm}$  in den Stromkreis einschließen und der Kurzschlussstrom kann die Brennstoffzelle zerstören.
+Um den Maximum Power Point zu bestimmt nutzen wir die P/I Kennlinie. Unsere P/I Kurve bis zum Ende hin steigt, da kein geringerer Widerstand als $\SI{0,8}{\ohm}$  in den Stromkreis geschlossen werden konnte und der Kurzschlussstrom die Brennstoffzelle zerstören kann.
 Wir benennen also unseren MPP an der Stelle von 0.8 Ohm und bekommen folgenden Wert: $P_{MPP} = \SI{95}{\milli \watt}$
-Dieser Wert ist akzeptabel.
+Dieser Wert ist akzeptabel, aber nicht das Optimum der Brennstoffzelle.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{mess/aufg11.pdf}
@@ -150,11 +151,11 @@ Nun soll bei konstanter Last die verbrauchte Gasmenge bestimmt werden:
 	\label{a12}
 \end{figure}
 Wir bestimmen nun analog zum Elektrolyseur den elektrischen und Faraday’schen Wirkungsgrad der Brennstoffzelle.
-Bei $\SI{0.13}{\volt}$ und $\SI{-128}{\milli \ampere}$ hat die Zelle am meisten Gas verbraucht uns somit am meisten Leistung gebracht. Für uns Ergeben sich folgende Werte:
+Bei $\SI{0.13}{\volt}$ und $\SI{-128}{\milli \ampere}$ hat die Zelle am meisten Gas verbraucht uns somit am meisten Leistung gebracht. Es ergeben sich folgende Werte:
 \begin{align*}
 n_el &= \frac{W_{el}}{HHH2V}=0.39 \\
 n_F &= \frac{V_{theo}}{V}=0.83
 \end{align*}
-Klar war für uns, die Erzeugung von Strom durch den Verbrauch von Wasserstoff und Sauerstoff zu Wasser kann nicht perfekt Funktionieren.
-Dennoch ist sie mit ca. 40\% besser als die meisten Stromerzeuger.
-Theoretisch sind wohl auch noch bessere Werte möglich, mit geringerem Widerstand und einer moderneren Vorrichtung.
+Klar war für uns: Die Erzeugung von Strom durch den Verbrauch von Wasserstoff und Sauerstoff zu Wasser kann nicht perfekt Funktionieren.
+Dennoch ist sie mit ca. 40\% keine schlechte Alternative zum Ottomotor.
+Theoretisch sind wohl noch bessere Werte möglich, mit geringerem Widerstand und einer moderneren Vorrichtung.
