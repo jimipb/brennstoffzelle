@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.18)  25 JUN 2019 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.18)  25 JUN 2019 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1245,27 +1245,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 /m/n/10.95 un-be-weg-li-che R[]umpfe der Do-na-to-
  []
 
+<Abb/baender.pdf, id=114, 501.875pt x 271.0125pt>
+File: Abb/baender.pdf Graphic file (type pdf)
+ <use Abb/baender.pdf>
+Package pdftex.def Info: Abb/baender.pdf used on input line 24.
+(pdftex.def)             Requested size: 292.7776pt x 158.1054pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 30.
+
 [6 <./Abb/pn-eps-converted-to.pdf>]
-<Abb/Diodenkennlinie.png, id=128, 587.19376pt x 316.18124pt>
+<Abb/Diodenkennlinie.png, id=129, 587.19376pt x 316.18124pt>
 File: Abb/Diodenkennlinie.png Graphic file (type png)
 
 <use Abb/Diodenkennlinie.png>
-Package pdftex.def Info: Abb/Diodenkennlinie.png used on input line 33.
+Package pdftex.def Info: Abb/Diodenkennlinie.png used on input line 38.
 (pdftex.def)             Requested size: 334.60571pt x 180.1721pt.
-
-<Abb/diodekenn_temp.jpg, id=130, 342.27875pt x 390.45876pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 44.
+ [7 <./Abb/baender.pdf> <./Abb/Diodenkennlinie.png>] <Abb/diodekenn_temp.jpg, i
+d=149, 342.27875pt x 390.45876pt>
 File: Abb/diodekenn_temp.jpg Graphic file (type jpg)
 
 <use Abb/diodekenn_temp.jpg>
-Package pdftex.def Info: Abb/diodekenn_temp.jpg used on input line 43.
+Package pdftex.def Info: Abb/diodekenn_temp.jpg used on input line 48.
 (pdftex.def)             Requested size: 167.29967pt x 190.85577pt.
 ) (./kap/zelle.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -1273,76 +1287,57 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 17.
- [7 <./Abb/Diodenkennlinie.png>]
-<Abb/brennstoffzelle.png, id=142, 541.02126pt x 601.24625pt>
+(babel)             in language  on input line 20.
+ [8 <./Abb/diodekenn_temp.jpg>]
+<Abb/brennstoffzelle.png, id=158, 541.02126pt x 601.24625pt>
 File: Abb/brennstoffzelle.png Graphic file (type png)
 
 <use Abb/brennstoffzelle.png>
 Package pdftex.def Info: Abb/brennstoffzelle.png used on input line 32.
 (pdftex.def)             Requested size: 250.95587pt x 278.88853pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 37.
- [8 <./Abb/diodekenn_temp.jpg>]) (./kap/solar.tex
+(babel)             in language  on input line 45.
+ [9 <./Abb/brennstoffzelle.png>]) (./kap/solar.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 6.
-
-[9 <./Abb/brennstoffzelle.png>]
-<Abb/fuellfaktor.jpg, id=157, 562.1pt x 434.62375pt>
+<Abb/fuellfaktor.jpg, id=168, 562.1pt x 434.62375pt>
 File: Abb/fuellfaktor.jpg Graphic file (type jpg)
  <use Abb/fuellfaktor.jpg>
 Package pdftex.def Info: Abb/fuellfaktor.jpg used on input line 12.
 (pdftex.def)             Requested size: 292.7776pt x 226.37703pt.
 
 
-LaTeX Warning: Reference `halbmatt' on page 10 undefined on input line 23.
+LaTeX Warning: Reference `halbmatt' on page 10 undefined on input line 22.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
-[10 <./Abb/fuellfaktor.jpg>]
-<Abb/aufg18.pdf, id=166, 1000.73875pt x 633.36626pt>
+<Abb/aufg18.pdf, id=169, 1000.73875pt x 633.36626pt>
 File: Abb/aufg18.pdf Graphic file (type pdf)
  <use Abb/aufg18.pdf>
-Package pdftex.def Info: Abb/aufg18.pdf used on input line 27.
+Package pdftex.def Info: Abb/aufg18.pdf used on input line 26.
 (pdftex.def)             Requested size: 334.60571pt x 211.76585pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 32.
 
-[11 <./Abb/aufg18.pdf>]) (./kap/durchfuehrung.tex
+[10]) (./kap/durchfuehrung.tex
 
 ! Package inputenc Error: Unicode char ﻿ (U+FEFF)
 (inputenc)                not set up for use with LaTeX.
@@ -1362,7 +1357,16 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 9.
-[12]
+[11 <./Abb/fuellfaktor.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 9.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 9.
+ [12 <./Abb/aufg18.pdf>]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 9.
@@ -1372,25 +1376,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 11.
-<mess/aufg2.pdf, id=192, 642.4pt x 481.8pt>
+<mess/aufg2.pdf, id=203, 642.4pt x 481.8pt>
 File: mess/aufg2.pdf Graphic file (type pdf)
  <use mess/aufg2.pdf>
 Package pdftex.def Info: mess/aufg2.pdf used on input line 25.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-<mess/aufg2_pi.pdf, id=193, 642.4pt x 481.8pt>
+<mess/aufg2_pi.pdf, id=204, 642.4pt x 481.8pt>
 File: mess/aufg2_pi.pdf Graphic file (type pdf)
  <use mess/aufg2_pi.pdf>
 Package pdftex.def Info: mess/aufg2_pi.pdf used on input line 26.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-<mess/aufg3_iu.pdf, id=195, 642.4pt x 481.8pt>
+<mess/aufg3_iu.pdf, id=206, 642.4pt x 481.8pt>
 File: mess/aufg3_iu.pdf Graphic file (type pdf)
  <use mess/aufg3_iu.pdf>
 Package pdftex.def Info: mess/aufg3_iu.pdf used on input line 29.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-<mess/aufg3_pi.pdf, id=197, 642.4pt x 481.8pt>
+<mess/aufg3_pi.pdf, id=208, 642.4pt x 481.8pt>
 File: mess/aufg3_pi.pdf Graphic file (type pdf)
  <use mess/aufg3_pi.pdf>
 Package pdftex.def Info: mess/aufg3_pi.pdf used on input line 31.
@@ -1423,7 +1427,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 58.
- [15 <./mess/aufg3_pi.pdf>] <mess/aufg4.pdf, id=257, 642.4pt x 481.8pt>
+ [15 <./mess/aufg3_pi.pdf>] <mess/aufg4.pdf, id=268, 642.4pt x 481.8pt>
 File: mess/aufg4.pdf Graphic file (type pdf)
  <use mess/aufg4.pdf>
 Package pdftex.def Info: mess/aufg4.pdf used on input line 79.
@@ -1438,13 +1442,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 82.
-<mess/aufg7.pdf, id=258, 642.4pt x 481.8pt>
+<mess/aufg7.pdf, id=269, 642.4pt x 481.8pt>
 File: mess/aufg7.pdf Graphic file (type pdf)
  <use mess/aufg7.pdf>
 Package pdftex.def Info: mess/aufg7.pdf used on input line 86.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-<mess/aufg8.pdf, id=259, 642.4pt x 481.8pt>
+<mess/aufg8.pdf, id=270, 642.4pt x 481.8pt>
 File: mess/aufg8.pdf Graphic file (type pdf)
  <use mess/aufg8.pdf>
 Package pdftex.def Info: mess/aufg8.pdf used on input line 96.
@@ -1479,7 +1483,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 126.
 
-<mess/aufg10.pdf, id=290, 642.4pt x 481.8pt>
+<mess/aufg10.pdf, id=302, 642.4pt x 481.8pt>
 File: mess/aufg10.pdf Graphic file (type pdf)
  <use mess/aufg10.pdf>
 Package pdftex.def Info: mess/aufg10.pdf used on input line 131.
@@ -1492,13 +1496,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 135.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 135.
- [18 <./mess/aufg8.pdf>] <mess/aufg11.pdf, id=307, 642.4pt x 481.8pt>
+ [18 <./mess/aufg8.pdf>] <mess/aufg11.pdf, id=318, 642.4pt x 481.8pt>
 File: mess/aufg11.pdf Graphic file (type pdf)
  <use mess/aufg11.pdf>
 Package pdftex.def Info: mess/aufg11.pdf used on input line 141.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-<mess/aufg12.pdf, id=308, 642.4pt x 481.8pt>
+<mess/aufg12.pdf, id=319, 642.4pt x 481.8pt>
 File: mess/aufg12.pdf Graphic file (type pdf)
  <use mess/aufg12.pdf>
 Package pdftex.def Info: mess/aufg12.pdf used on input line 149.
@@ -1562,10 +1566,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 18663 strings out of 494893
- 358189 string characters out of 6178672
+ 18669 strings out of 494893
+ 358289 string characters out of 6178672
  481643 words of memory out of 5000000
- 21705 multiletter control sequences out of 15000+600000
+ 21709 multiletter control sequences out of 15000+600000
  14447 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,18n,66p,10387b,878s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1583,10 +1587,10 @@ mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on brennstoffzelle.pdf (22 pages, 1136941 bytes).
+Output written on brennstoffzelle.pdf (22 pages, 1163368 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
