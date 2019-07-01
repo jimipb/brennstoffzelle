@@ -148,3 +148,146 @@ Folgende Abbildung zeigt die Temperaturabhängigkeit der I/U-Kennlinie.
 .sp 1
 .ce 1
 Kennlinie bei verschiedenen Temperaturen
+.NH 2
+Solarzelle
+.NH 3
+Funktionsprinzip einer Solarzelle
+.PP
+Durch Einstrahlung von Photonen werden freie Ladungsträger in der Zelle erzeugt. Der p-n-Übergang erzeugt ein inneres elektrisches Feld. Das herausgelöste Elektron und das entstandene Loch werden dadurch in unterschiedliche Richtungen transportiert. Hieraus entsteht ein Strom.
+Das herauslösen eines Elektrons ist nur möglich, wenn die Energie $E=hv$ größer der Gap-Energie des Halbleitermaterials ist.
+.NH 3
+Füllfaktor
+.PP
+Das Verhältnis zwischen theoretisch erzielbarer Leistung und der am Maximum Power Point (MPP) erzielten Leistung, wird Füllfaktor genannt. 
+.PSPIC Abb/fuellfaktor.eps 4
+.sp 1
+.ce 1
+Füllfaktor einer Solarzelle: Das Verhältnis der theoretisch erzielbaren Leistung zu $U sub LL dot I sub KS$
+.NH 3
+Wärmeeinwirkung auf Solarzelle
+.PP
+Die Anzahl der freien Ladungsträger nimmt im Halbleiter mit der Temperatur zu. Diese Ladungsträger bewirken in der Sperrschicht der Solarzelle einen Diffusionsstrom, der die Leistung der Solarzelle reduziert.
+.NH 3
+Effizienz der Solarzelle
+.PP
+Die Effizienz hängt neben den offensichtlichen Faktoren, wie Wellenlänge/Spektrum des eingestrahlten Lichts, und der oben genannten Wärmeabhängigkeit, noch von Bauart bedingten Einschränkungen ab. Hier seien die Dicke der Schichten der Photozelle und dem Material gennant. 
+Von den im Abschnitt über Halbleitermaterialien genannten Materialien, weißt zum Beispiel kristallines Silizium eine höhere Effizienz auf, als amorphes. Weiter werden in Raumfahrtanwendungen sehr teure Materialien wie GaAs, oder GaAlAs und GaInAsP, verwendet, die Effizienzen bist 40% erreichen.
+.PSPIC Abb/aufg18.eps 4
+.sp 1
+.ce 2 
+Intensität eines schwarzen Strahlers mit 2500K, 
+Gapenergien einiger typischer Halbleiterverbindungen
+.NH 3
+Spektrum des schwarzen Strahlers
+.PP
+Obige Abbildung zeigt die Strahlung eines schwarzen Strahlers bei 2500K in Abhängigkeit der Energie der emittierten Photonen, sowie die Gapenergie verschiedener Halbleiter. Der Anteil der Strahlung rechts von den Strichen trägt zur Leistung der Solarzelle bei.
+.NH 3
+Abhängigkeit des Fotostroms von der Temperatur des schwarzen Strahlers
+.PP
+Die Anzahl der erzeugten Elektron-Loch-Paare ist proptoortional zur Anzahl der Photonen, die eine Energie größer der Gap-Energie besitzen. Der Anteil dieser Photonen lässt sich mit dem Wien'schen Verschiebungsgesetz bestimmen. 
+.EQ
+M( lambda ) eq {2 pi c sup 2} over { lambda sup 5 } { 1 } over { exp 
+left (
+{hc} over {k sub B T} 
+right )
+}
+.EN
+mit $lambda = c/v$ und $E sub {Gap} = hv$ folgt:
+.EQ
+M(v) eq {2 pi v sup 5} over {c sup 3} {1} over { exp 
+left ( 
+{E sub {Gap}} over {k sub B T}
+right )
+}
+.EN
+Für die Intensität gilt
+.EQ
+I \[pt] {2 pi v sup 5} over {c sup 3} {1} over { exp
+left (
+{E sub {Gap}} over {k sub B T} 
+right )
+} \[pt] exp 
+left (
+- {E sub {Gap}} over{k_B T} 
+right )
+.EN
+.NH 2
+Brennstoffzelle
+.NH 3
+Gefahren beim Umgang mit Sauerstoff und Wasserstoff
+.PP
+Bevor nun auf die Funktionsweise eingegangen werden kann, muss erwähnt werden, wie gefährlich ein falscher Umgang mit Elementarem Sauerstoff und Wasserstoff sein kann.
+Da elementarer Sauerstoff in unserer Atmosphäre vorkommt ist das freisetzen von $H_2$ an der Luft ausreichend um das gefährliche und hochexplosive Knallgas zu entwickeln. Ein bloßer Funke oder Reibung reicht nun aus um dieses Gas explosionsartig verbrennen zu lassen.
+Hierbei entstehen Temperaturen bis zu 2000°C.
+Dies bedeutet auch, dass die Aufbewahrung kostspielig sein kann.
+Aufgrund des sehr hohen Elektronegativitätenunterschiedes zwischen den beiden Elementen, sind sie im elementaren Zustand sehr reaktionsfreudig. Diese Potenzialdifferenz bestimt auch die maximal mögliche Spannung von ca. $1,3 roman("V")$.
+Praktische gemessene Werte befinden sich jedoch aufgrund Verluste im Aufbau, bei einem maximalen Wirkungsgrad von 60%, unter einem Volt.
+Verluste können vom Brennstoff, von der Qualität der Zelle und von der Temperatur abhängen.
+Zur erhöhung der gewonnen Spannung lassen sich mehrere Brenntstoffzellen aneinander ketten.
+Aufgrund der Tatsache, dass Wasserstoff leicht herzustellen ist, ist die Brennstoffzelle dennoch ein wichtiges Forschungsgebiet.
+Sie kann helfen, den Bedarf von tragbaren Energiequellen zu stillen, zudem sie ohne Risiken für Umwelt funktioniert.
+.NH 3
+Maximalspannung einer Solar-/Brennstoffzelle
+.PP
+Die maximale Spannung einer Solarzelle ist vorrangig durch das Halbleitermaterial begrenzt. Bei der Brennstoffzelle gibt das chemische Potential zwischen Wasserstoff und Sauerstoff die Spannung vor.
+.NH 3
+Funktionsprinzip einer Brennstoffzelle
+.PP
+Im Folgenden soll auf die Funktionsweise der Brennstoffzelle eingegangen werden. 
+Entgegen der Elektrolyse von Wasser sollen nun die Elementaren Moleküle, $H sub 2$ und $O sub 2$, zu elektrischer Energie zurückreagieren.
+Stark vereinfacht lässt sich die Brennstoffzelle als Galvanisches Element darstellen, also, Anode und Kathode getrennt von einer semipermeablen Membran.
+Die trennende Membranschicht benötigt also die Eigenschaft $H^+$ Ionen passieren lassen zu können.
+Durch das Ionomer, ein protonendurchlässiges Polymer, können nur Protonen, nicht jedoch Stoffe wie Sauerstoff oder Wasserstoff, passieren.
+Hierzu verwendet man zum Beispiel, ähnlich zu den klassischen Galvanischen Zellen, Laugen oder Säuren als flüssige Membran und Keramiken als Feste Membranschichten.
+Durch ihre Eigenschaft hat sie auch den Namen PEM-Membran ("Proton Exchange Membrane") bekommen.
+.PSPIC Abb/brennstoffzelle.eps 3
+.sp 1
+.ce 1
+Funktionsweise der Brennstoffzelle
+
+Entscheidend ist die Reaktionsgleichung, sie sorgt für frei Elektronen, die nun für den elektrischen Strom genutzt werden können.
+Anode:
+$2 H sub 2 -> 4 H sup + + 4 e sup - $
+Kathode:
+$O sub 2 + 4 H sup + + 4 e sup - -> 2 H sub 2 O$
+Gesamtgleichung:
+$2 H sub 2 + O sub 2 -> 2 H sub 2 O$
+An der Anode docken $H sub 2$ Moleküle an, geben ihr Elektron an einen Leiter ab und wandern als Protonen durch die Membran zum Sauerstoff.
+An der Kathode Reagieren dann $2 H sub 2$ und $O sub 2$ zu $2 H sub 2 O$.
+Die maximale Spannung einer Solarzelle ist vorrangig durch das Halbleitermaterial begrenzt. Bei der Brennstoffzelle gibt das chemische Potential zwischen Wasserstoff und Sauerstoff die Spannung vor.
+.NH 
+Durchführung
+.NH 2
+Solarzelle
+Als Solarzelle kommt eine Anordnung von 6 Einzelzellen zum Einsatz. Zuerst messen wir die Leerlaufspannung und den Kurzschlussstrom der Anlage bei verschiedenen Beleuchtungsstärken.
+\begin{center}
+\begin{tabular}{ |  l  c  c  c | }
+\hline
+	& Tisch	& Fenster & unter Tisch \\ \hline	
+Leerlaufspannung & $\SI{0,665}{\volt}$	& $\SI{1,979}{\volt}$	& $\SI{0,173}{\volt}$ \\ 
+Kurzschlussstrom & $\SI{0,95}{\milli \ampere}$	& $\SI{9,89}{\milli \ampere}$	& $\SI{0,18}{\milli \ampere}$ \\ 
+\hline
+\end{tabular}
+\end{center}
+
+Wir messen nun die I/U-Kennlinie der Zellen im Dunklen \refabb{a2}.
+Aus dieser Kennlinie erzeugen wir die P/I-Kennlinie. Im Dunklen ist die Leistung hier positiv, die Zellen wirken also als Verbraucher \refabb{a2pi}. 
+\mess{mess/aufg2.pdf}{Dunkel I/U-Kennlinie der Solarzellen}{a2}
+\mess{mess/aufg2_pi.pdf}{Dunkel P/I-Kennlinie der Solarzellen: Zellen wirken als Verbraucher}{a2pi}
+
+
+.NH
+Fazit
+.PP
+Wie die Auswertung des Versuchs zeigt, ist die Solar- und Brennstoffzelle eine sehr zukunftsorientierte Technologie.
+Ebenso ist sie im großtechnischen Maßstab einsetzbar. 
+Die Wirkungsgrade, die wir im Versuch zur Solarzelle und zum Elektrolyseur erreicht haben,
+waren sehr gut, auch im Vergleich zu aktuell vermarkteten Technologien.
+Interessant ist vor allem, dass konstanter Gleichstrom, wie es die Herstellung von Wasserstoff benötigt,
+mit der Solarzelle erzeugt werden kann, so dass ein 100% Umweltfreundlicher Kraftstoff gebildet werden kann. 
+Lediglich die Herstellung der Zellen weisen einen geringen CO2 Abdruck auf. 
+Brennstoffzellen erreichen hohe Wirkungsgrade, Rekorde liegen sogar bei über 60%,
+und erzeugen dabei direkt elektrische Energie, die im Elektromotor bei fast keinem Verlust für Fortbewegung genutzt werden kann.
+Das Hauptproblem der Wasserstofftechnologie ist derzeit also die fehlende Infrastrukturzur Speicherung und Transport von Wasserstoff.
+Ein Flächendeckendes Angebot an sicherem Wasserstoff müsste gewährleistet sein, damit diese Technologie den Markt übernimmt.
+Es wäre jedoch an der Zeit ein Zeichen für die Umwelt zu setzen und ebendiese Fortbewegung zu fördern.
