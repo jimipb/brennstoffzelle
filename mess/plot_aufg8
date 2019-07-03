@@ -1,0 +1,11 @@
+set xlabel "Zeit [s]"
+set ylabel "Gasproduktion [ml]"
+set key top left
+f(x) = a*x
+g(x) = b*x
+h(x) = c*x
+fit f(x) "aufg8_1" u 2:1 via a
+fit g(x) "aufg8_15" u 2:1 via b
+fit h(x) "aufg8_20" u 2:1 via c
+plot "aufg8_1" u 2:1 w p pt 2 lc 6 t "Messwerte 1,0 A", f(x) w l lc 6 lw 2 t "","aufg8_15" u 2:1 w p pt 2 lc 4 t "Messwerte 1,5 A", g(x) w l lc 4 lw 2 t "", "aufg8_20" u 2:1 w p pt 2 lc 8 t "Messwerte 2,0 A", h(x) w l lc 8 lw 2 t ""
+pause -1
