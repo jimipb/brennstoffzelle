@@ -1,7 +1,18 @@
-\begin{thebibliography}{xxxxxxxxxxxxxxxxxx}
-	\bibitem[03.07.2019]{band} \url{http://www.ulfkonrad.de/bilder/grafik/physik/el-mag/baenderm-01.gif}
-	\bibitem[03.07.2019]{diod} \url{https://2.bp.blogspot.com/-BKh-XuzPk3E/WOZdf_7y7QI/AAAAAAAAEXE/LnrxOJJeYVoQ2AMf6E1og347UfCT841TgCLcB/s1600/Diodenkennlinie.png}
-	\bibitem[03.07.2019]{temp} \url{https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dioden-Kennlinie_1N4001.svg/1200px-Dioden-Kennlinie_1N4001.svg.png}
-	\bibitem[03.07.2019]{fuel} \url{https://www.spektrum.de/lexika/images/physik/fff4149_w.jpg}
+\begin{thebibliography}{xxx}
+	\bibitem{band}
+\url{http://www.ulfkonrad.de/bilder/grafik/physik/el-mag/baenderm-01.gif},
+03.07.2019
+	\bibitem{diod}
+\url{https://2.bp.blogspot.com/-BKh-XuzPk3E/WOZdf_7y7QI/AAAAAAAAEXE/LnrxOJJeYVoQ2AMf6E1og347UfCT841TgCLcB/s1600/Diodenkennlinie.png},
+03.07.2019
+	\bibitem{temp}
+\url{https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dioden-Kennlinie_1N4001.svg/1200px-Dioden-Kennlinie_1N4001.svg.png},
+03.07.2019
+	\bibitem{fuel}
+\url{https://www.spektrum.de/lexika/images/physik/fff4149_w.jpg}, 03.07.2019
+	\bibitem{bauel} Thuselt, Frank: Physik der Halbleiterbauelemente: Einführendes Lehrbuch für Ingenieure und Physiker. 2. Aufl. Berlin Heidelberg New York: Springer-Verlag, 2011.
+	\bibitem{zinth} Zinth; Zinth: Optik :Lichtstrahlen - Wellen - Photonen. München: Oldenbourg Verlag, 2011.
+	\bibitem{gross} Gross, Rudolf; Marx, Achim: Festkörperphysik. 3. Aufl.
+Berlin: Walter de Gruyter GmbH \& Co KG, 2018. 
 \end{thebibliography}
 

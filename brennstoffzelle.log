@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  3 JUL 2019 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  4 JUL 2019 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,37 +934,33 @@ chapter 4.
 ) (./kap/abb [22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 [][]$\OT1/cmtt/m/n/10.95 http : / / www . ulfkonrad . de / bilder / grafik / ph
-ysik / el-[]mag /
+ysik / el-[]mag / baenderm-[]01 . gif$[]\OT1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 [][]$\OT1/cmtt/m/n/10.95 https : / / 2 . bp . blogspot . com / -[]BKh-[]XuzPk3E
- / WOZdf _ 7y7QI /
+ / WOZdf _ 7y7QI / AAAAAAAAEXE /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\OT1/cmtt/m/n/10.95 AAAAAAAAEXE / LnrxOJJeYVoQ2AMf6E1og347UfCT841TgCLcB /
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+\OT1/cmtt/m/n/10.95 LnrxOJJeYVoQ2AMf6E1og347UfCT841TgCLcB / s1600 / Diodenkennl
+inie . png$[]\OT1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 [][]$\OT1/cmtt/m/n/10.95 https : / / upload . wikimedia . org / wikipedia / com
-mons /
+mons / thumb / 1 / 10 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-\OT1/cmtt/m/n/10.95 thumb / 1 / 10 / Dioden-[]Kennlinie _ 1N4001 . svg /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[][]$\OT1/cmtt/m/n/10.95 https : / / www . spektrum . de / lexika / images / ph
-ysik /
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+\OT1/cmtt/m/n/10.95 Dioden-[]Kennlinie _ 1N4001 . svg / 1200px-[]Dioden-[]Kennl
+inie _ 1N4001 . svg . png$[]\OT1/cmr/m/n/10.95 ,
  []
 
 )
@@ -981,10 +977,10 @@ Package rerunfilecheck Info: File `brennstoffzelle.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 21110 strings out of 492623
- 399980 string characters out of 6135670
+ 21116 strings out of 492623
+ 400031 string characters out of 6135670
  576814 words of memory out of 5000000
- 24754 multiletter control sequences out of 15000+600000
+ 24757 multiletter control sequences out of 15000+600000
  543145 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,71p,9114b,893s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1002,10 +998,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on brennstoffzelle.pdf (23 pages, 1183803 bytes).
+Output written on brennstoffzelle.pdf (23 pages, 1184862 bytes).
 PDF statistics:
  463 PDF objects out of 1000 (max. 8388607)
  360 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 79 named destinations out of 1000 (max. 500000)
  184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
