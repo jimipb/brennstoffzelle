@@ -47,7 +47,22 @@ Für $U=0$ ergibt sich der Kurzschlussstrom $I_K$ und für $I=0$ die Leerlaufspa
 	U_L &= U_0 \ln \left( -\frac{y_0}{I_0} \right) = \SI{1,9}{\volt}
 \end{align*}
 
-Verunreinigungen und Kristallfehler and der Grenzfläche der p-n leitenden Schicht verursachen Widerstände die sich im realen nicht auf 0 (Reihe) und unendlich (Parallel) setzen lassen.
+Verunreinigungen und Kristallfehler and der Grenzfläche der p-n leitenden
+Schicht verursachen einen Widerstand den man im erweiterten Ersatzschaltbild,
+siehe Abbildung \ref{solarschalt}, im parallelen Widerstand $R_p$ symbolisiert.
+Bei der idealen Solarzelle sollte dieser Widerstand gegen unendlich gehen.
+Im Serienwiderstand $R_s$ werden dagegen alle Effekte zusammengefasst, die einen
+höheren Gesamtwiderstand des Bauteils bewirken. Dabei handelt es sich vor allem
+um den Widerstand des Halbleitermaterials und die Widerstände an Kontakten und
+Zuleitungen. Dieser Widerstand sollte möglichst klein sein.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Abb/solarschalt.png}
+	\caption{Das erweiterte Ersatzschaltbild einer Solarzelle. Störfaktoren, wie
+			 Widerstände durch Kabel, oder Kristallfehler, werden hier in den
+			 beiden Widerständen $R_s$ und $R_p$ zusammengefasst.}
+	\label{solarschalt}
+\end{figure}
 Dabei wäre der Füllfaktor bei 1 und der MPP folglich am besten.
 Um diese Widerstände zu bestimmen nutzt man die Kennlinie des Bauteils.
 Diese Widerstände entsprechen den Steigungen der Kennlinie nahe den Achsen, also der Steigung des Graphen bei Leerlaufspannung und Kurzschlussstrom.

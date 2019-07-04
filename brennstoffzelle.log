@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  4 JUL 2019 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  4 JUL 2019 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,7 +854,7 @@ Package pdftex.def Info: Abb/fuellfaktor.jpg  used on input line 12.
 <Abb/aufg18.pdf, id=137, 1000.73875pt x 633.36626pt>
 File: Abb/aufg18.pdf Graphic file (type pdf)
 <use Abb/aufg18.pdf>
-Package pdftex.def Info: Abb/aufg18.pdf  used on input line 26.
+Package pdftex.def Info: Abb/aufg18.pdf  used on input line 31.
 (pdftex.def)             Requested size: 334.60571pt x 211.76585pt.
  [10]) (./kap/durchfuehrung.tex [11 <./Abb/fuellfaktor.jpg>] [12 <./Abb/aufg18.
 pdf>]
@@ -882,54 +882,60 @@ Package pdftex.def Info: mess/aufg3_pi.pdf  used on input line 31.
 [13
 
  <./mess/aufg2.pdf>] [14 <./mess/aufg2_pi.pdf> <./mess/aufg3_iu.pdf>]
-[15 <./mess/aufg3_pi.pdf>]
-<mess/aufg4.pdf, id=237, 642.4pt x 481.8pt>
+<Abb/solarschalt.png, id=221, 501.875pt x 255.95625pt>
+File: Abb/solarschalt.png Graphic file (type png)
+<use Abb/solarschalt.png>
+Package pdftex.def Info: Abb/solarschalt.png  used on input line 60.
+(pdftex.def)             Requested size: 292.7776pt x 149.32175pt.
+
+[15 <./mess/aufg3_pi.pdf>] [16 <./Abb/solarschalt.png>]
+<mess/aufg4.pdf, id=246, 642.4pt x 481.8pt>
 File: mess/aufg4.pdf Graphic file (type pdf)
 <use mess/aufg4.pdf>
-Package pdftex.def Info: mess/aufg4.pdf  used on input line 79.
+Package pdftex.def Info: mess/aufg4.pdf  used on input line 94.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
 
-Overfull \hbox (6.39201pt too wide) in paragraph at lines 78--80
+Overfull \hbox (6.39201pt too wide) in paragraph at lines 93--95
 []\OT1/cmr/m/n/10.95 Zuletzt un-ter-su-chen wir den Zu-sam-men-hang zwi-schen L
 eis-tung und be-leuch-te-ter Fl[]ache.
  []
 
-<mess/aufg7.pdf, id=238, 642.4pt x 481.8pt>
+<mess/aufg7.pdf, id=247, 642.4pt x 481.8pt>
 File: mess/aufg7.pdf Graphic file (type pdf)
 <use mess/aufg7.pdf>
-Package pdftex.def Info: mess/aufg7.pdf  used on input line 85.
+Package pdftex.def Info: mess/aufg7.pdf  used on input line 100.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
-<mess/aufg8.pdf, id=239, 962.59625pt x 481.8pt>
+<mess/aufg8.pdf, id=248, 962.59625pt x 481.8pt>
 File: mess/aufg8.pdf Graphic file (type pdf)
 <use mess/aufg8.pdf>
-Package pdftex.def Info: mess/aufg8.pdf  used on input line 95.
+Package pdftex.def Info: mess/aufg8.pdf  used on input line 110.
 (pdftex.def)             Requested size: 334.60571pt x 167.47095pt.
 
-Overfull \hbox (28.57349pt too wide) in paragraph at lines 105--108
+Overfull \hbox (28.57349pt too wide) in paragraph at lines 120--123
 \OT1/cmr/m/n/10.95 Diese Wer-te sind sehr gut. Ei-ne gu-te Aus-beu-te bei der A
 uf-spal-tung von $\OML/cmm/m/it/10.95 H[]O$ \OT1/cmr/m/n/10.95 ist w[]unschensw
 ert.
  []
 
-[16] [17 <./mess/aufg4.pdf> <./mess/aufg7.pdf>]
-<mess/aufg10.pdf, id=270, 642.4pt x 481.8pt>
+[17 <./mess/aufg4.pdf>] [18 <./mess/aufg7.pdf> <./mess/aufg8.pdf>]
+<mess/aufg10.pdf, id=291, 642.4pt x 481.8pt>
 File: mess/aufg10.pdf Graphic file (type pdf)
 <use mess/aufg10.pdf>
-Package pdftex.def Info: mess/aufg10.pdf  used on input line 130.
+Package pdftex.def Info: mess/aufg10.pdf  used on input line 145.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
-<mess/aufg11.pdf, id=271, 642.4pt x 481.8pt>
+<mess/aufg11.pdf, id=292, 642.4pt x 481.8pt>
 File: mess/aufg11.pdf Graphic file (type pdf)
 <use mess/aufg11.pdf>
-Package pdftex.def Info: mess/aufg11.pdf  used on input line 140.
+Package pdftex.def Info: mess/aufg11.pdf  used on input line 155.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
- [18 <./mess/aufg8.pdf>]
-[19 <./mess/aufg10.pdf>]
-<mess/aufg12.pdf, id=304, 642.4pt x 481.8pt>
+<mess/aufg12.pdf, id=293, 642.4pt x 481.8pt>
 File: mess/aufg12.pdf Graphic file (type pdf)
 <use mess/aufg12.pdf>
-Package pdftex.def Info: mess/aufg12.pdf  used on input line 148.
+Package pdftex.def Info: mess/aufg12.pdf  used on input line 163.
 (pdftex.def)             Requested size: 334.60571pt x 250.95648pt.
-) (./kap/Fazit [20 <./mess/aufg11.pdf>] [21 <./mess/aufg12.pdf>]
+)
+(./kap/Fazit [19] [20 <./mess/aufg10.pdf> <./mess/aufg11.pdf>] [21 <./mess/aufg
+12.pdf>]
 chapter 4.
 ) (./kap/abb [22
 
@@ -963,6 +969,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 inie _ 1N4001 . svg . png$[]\OT1/cmr/m/n/10.95 ,
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[][]$\OT1/cmtt/m/n/10.95 https : / / de . wikipedia . org / wiki / Solarzelle #
+ /media / Datei : Solarzelle _
+ []
+
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
  [23
@@ -977,10 +989,10 @@ Package rerunfilecheck Info: File `brennstoffzelle.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 21116 strings out of 492623
- 400031 string characters out of 6135670
+ 21129 strings out of 492623
+ 400224 string characters out of 6135670
  576814 words of memory out of 5000000
- 24757 multiletter control sequences out of 15000+600000
+ 24765 multiletter control sequences out of 15000+600000
  543145 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,71p,9114b,893s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -998,10 +1010,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on brennstoffzelle.pdf (23 pages, 1184862 bytes).
+Output written on brennstoffzelle.pdf (23 pages, 1190598 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
