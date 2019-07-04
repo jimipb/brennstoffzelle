@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  4 JUL 2019 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.7.3)  4 JUL 2019 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,10 +886,10 @@ Package pdftex.def Info: mess/aufg3_pi.pdf  used on input line 31.
 File: Abb/solarschalt.png Graphic file (type png)
 <use Abb/solarschalt.png>
 Package pdftex.def Info: Abb/solarschalt.png  used on input line 60.
-(pdftex.def)             Requested size: 292.7776pt x 149.32175pt.
+(pdftex.def)             Requested size: 209.12778pt x 106.65727pt.
 
-[15 <./mess/aufg3_pi.pdf>] [16 <./Abb/solarschalt.png>]
-<mess/aufg4.pdf, id=246, 642.4pt x 481.8pt>
+[15 <./mess/aufg3_pi.pdf>]
+<mess/aufg4.pdf, id=241, 642.4pt x 481.8pt>
 File: mess/aufg4.pdf Graphic file (type pdf)
 <use mess/aufg4.pdf>
 Package pdftex.def Info: mess/aufg4.pdf  used on input line 94.
@@ -900,6 +900,7 @@ Overfull \hbox (6.39201pt too wide) in paragraph at lines 93--95
 eis-tung und be-leuch-te-ter Fl[]ache.
  []
 
+[16 <./Abb/solarschalt.png>]
 <mess/aufg7.pdf, id=247, 642.4pt x 481.8pt>
 File: mess/aufg7.pdf Graphic file (type pdf)
 <use mess/aufg7.pdf>
@@ -909,7 +910,7 @@ Package pdftex.def Info: mess/aufg7.pdf  used on input line 100.
 File: mess/aufg8.pdf Graphic file (type pdf)
 <use mess/aufg8.pdf>
 Package pdftex.def Info: mess/aufg8.pdf  used on input line 110.
-(pdftex.def)             Requested size: 334.60571pt x 167.47095pt.
+(pdftex.def)             Requested size: 418.25555pt x 209.3387pt.
 
 Overfull \hbox (28.57349pt too wide) in paragraph at lines 120--123
 \OT1/cmr/m/n/10.95 Diese Wer-te sind sehr gut. Ei-ne gu-te Aus-beu-te bei der A
@@ -1010,7 +1011,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on brennstoffzelle.pdf (23 pages, 1190598 bytes).
+Output written on brennstoffzelle.pdf (23 pages, 1190629 bytes).
 PDF statistics:
  475 PDF objects out of 1000 (max. 8388607)
  370 compressed objects within 4 object streams
